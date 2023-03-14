@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Menu Bar with Dropdown List</title>
+	<style>
+		/* CSS styles go here */
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Navigation Menu Bar</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Link 1</a></li>
+			<li class="dropdown"><a href="#">Link 2</a>
+				<div class="dropdown-content">
+					<a href="#">DD_Link_1</a>
+					<a href="#">DD_Link_2</a>
+					<a href="#">DD_Link_3</a>
+				</div>
+			</li>
+			<li class="dropdown"><a href="#">Link 3</a>
+				<div class="dropdown-content">
+					<a
+
+                    .bar-graph {
+                        width: 200px;
+                        height: 300px;
+                        border: 1px solid #ccc;
+                        margin: 0 auto;
+                        display: inline-block;
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                      }
+                      
+                      .bar {
+                        width: 100%;
+                        background-color: #0099ff;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        animation: grow 2s ease-in-out;
+                      }
+                      
+                      .percentage {
+                        text-align: center;
+                        font-size: 24px;
+                        margin-top: 10px;
+                      }
+                      
+                      @keyframes grow {
+                        from { height: 0%; }
+                        to { height: 30%; }
+                      }
+                      
+                      .bar-graph:nth-of-type(2) .bar {
+                        animation: grow-2 2s ease-in-out;
+                      }
+                      
+                      @keyframes grow-2 {
+                        from { height: 0%; }
+                        to { height: 40%; }
+                      }
+                      
+                      .bar-graph:nth-of-type(3) .bar {
+                        animation: grow-3 2s ease-in-out;
+                      }
+                      
+                      @keyframes grow-3 {
+                        from { height: 0%; }
+                        to { height: 80%; }
+                      }
+                      
+                      header {
+                        text-align: center;
+                      }
+                      <div class="bar-graph">
+                        <div class="bar" style="height: 0%;"></div>
+                    </div>
+                    <div class="percentage">30%</div>
+                    
+                    <div class="bar-graph">
+                        <div class="bar" style="height: 0%;"></div>
+                    </div>
+                    <div class="percentage">40%</div>
+                    
+                    <div class="bar-graph">
+                        <div class="bar" style="height: 0%;"></div>
+                    </div>
+                    <div class="percentage">80%</div>
+                                          
+
+
+	
